@@ -2,7 +2,7 @@
 
 
 <label for="content">メッセージ</label><br />
-<input type="text" name="content" value="${task.content}" />
+<input type="text" name="content" value="${message.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />

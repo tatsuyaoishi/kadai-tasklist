@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:import url="../layout/app.jsp">
     <c:param name="content">
-        <h2>メッセージ一覧</h2>
+        <h2>タスク一覧</h2>
         <ul>
             <c:forEach var="message" items="${messages}">
                 <li>
@@ -14,7 +14,7 @@
             </c:forEach>
         </ul>
 
-        <p><a href="${pageContext.request.contextPath}/new">新規メッセージの投稿</a></p>
+        <p><a href="${pageContext.request.contextPath}/new">新規タスクの投稿</a></p>
 
     </c:param>
 </c:import>
